@@ -21,9 +21,9 @@ print()
 port_number = int(input("Enter the port number (e.g.. 80, 22, 443, 3389): "))
 transfer_size = int(input("Enter the data transfer size in megabytes (MB): "))
 
-#Risk analysis
+
 if (port_number == 22 or port_number == 3389) and transfer_size >= 100:
-    risk = "HIGH RISK: Potential_unauthoried remote access detected!"
+    risk = "HIGH RISK: Potential unauthoried remote access detected!"
 elif port_number == 80 and transfer_size > 100:
     risk = "MEDIUM RISK: Large unencrypted data transfer detected."
 elif port_number == 443:
