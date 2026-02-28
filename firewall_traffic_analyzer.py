@@ -34,7 +34,7 @@ else:
 print()
 print("FIREWALL LOG:")
 print(f"Port: {port_number}, Transfer Size: {transfer_size} MB")
-print(f"Risk Assessment: {risk}")
+print("Risk Assessment:", risk)
 print("------------------------")               
 
 
